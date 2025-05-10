@@ -1,0 +1,26 @@
+# Configuration file for your Multi-Purpose AI Assistant
+
+# Add any API keys, tool paths, or settings here
+api_keys:
+  example_service: 'your_api_key_here'
+
+tool_paths:
+  nmap: '/usr/bin/nmap'
+  selenium_driver: '/path/to/selenium/driver'
+
+voice_commands:
+  - trigger: "run scan"
+    action: "python sentinel_agent.py"
+    description: "Run a sentinel scan on the system."
+  - trigger: "generate report"
+    action: "python report_generator.py"
+    description: "Generate a detailed system report."
+  - trigger: "check memory"
+    action: "python chroma_brain.py"
+    description: "Check the memory module."
+  - trigger: "alert"
+    action: "python alert_engine.py"
+    description: "Activate the alert engine."
+  - trigger: "exit"
+    action: "exit"
+    description: "Shut down the voice cortex."

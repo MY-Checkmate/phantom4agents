@@ -1,0 +1,27 @@
+# General HTTP and Web Scraping
+requests
+beautifulsoup4
+selenium
+
+# Pentesting and Networking
+python-nmap
+scapy
+
+# Voice Control and Speech Recognition
+pyttsx3
+SpeechRecognition
+pyaudio
+
+# AI and Machine Learning
+torch
+transformers
+chromadb
+PyYAML
+
+# Flask for Backend API
+Flask
+Flask-SocketIO
+
+# Additional Utilities
+pandas
+numpy
