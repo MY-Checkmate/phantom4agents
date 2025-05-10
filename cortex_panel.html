@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phantom4Agents Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Phantom4Agents Dashboard</h1>
+    <p>Monitor and control your agents in real-time.</p>
+  </header>
+
+  <main>
+    <!-- Agent Status Section -->
+    <section id="agent-status">
+      <h2>Agent Status</h2>
+      <ul id="agent-list">
+        <!-- Agent statuses will be dynamically loaded here -->
+      </ul>
+    </section>
+
+    <!-- Command Control Section -->
+    <section id="command-control">
+      <h2>Send Command</h2>
+      <input type="text" id="command-input" placeholder="Enter command">
+      <button id="send-command">Send</button>
+      <button id="voice-command">🎤 Voice Command</button>
+    </section>
+
+    <!-- Logs Section -->
+    <section id="logs">
+      <h2>Logs</h2>
+      <pre id="log-output">No logs yet...</pre>
+    </section>
+
+    <!-- Visualization Section -->
+    <section id="visualization">
+      <h2>Reconnaissance Results</h2>
+      <canvas id="results-chart"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Phantom4Agents. All rights reserved.</p>
+  </footer>
+
+  <script src="static/js/dashboard.js"></script>
+</body>
+</html>
