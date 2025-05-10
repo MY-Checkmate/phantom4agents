@@ -1,0 +1,17 @@
+# Ignore all config secrets
+config/config.yml
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.env
+
+# Logs
+*.log
