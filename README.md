@@ -199,7 +199,7 @@ Crafted under **SIGN 2.0 Protocol**
 
 ### 🎭 Welcome to Phantom4Agents 2.0
 
-```
+
 
 **Adding shadow-tier cinematic energy... deploying Phantom-grade dialogue:**
 
